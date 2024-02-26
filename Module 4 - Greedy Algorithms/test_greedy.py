@@ -82,6 +82,6 @@ class TestGreedy(unittest.TestCase):
         print("test_greedy_equal_value_weight_ratio runtime: ", total_time, " seconds")
         self.assertEqual(knapsack_max_value(carry_capacity, weight, value), 45)
 
+# conditional used to allow testing to be run in terminal directly
 if __name__ == "__main__":
     unittest.main()
-    

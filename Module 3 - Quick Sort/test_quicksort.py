@@ -39,5 +39,6 @@ class TestQuickSort(unittest.TestCase):
         print("quicksort_median_of_three running time: ", total_time, " seconds")
         self.assertEqual(test_array, sorted(test_array))
 
+# conditional used to allow testing to be run in terminal directly
 if __name__ == "__main__":
     unittest.main()

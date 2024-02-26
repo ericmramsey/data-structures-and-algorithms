@@ -40,6 +40,6 @@ class TestFibonacci(unittest.TestCase):
         self.assertEqual(fibonacci.fibonacci_divide_conquer(-5), 0)
         self.assertEqual(fibonacci.fibonacci_divide_conquer(-10), 0)
 
-# conditional used to allow testing to be run directly with terminal python test_calc.py and in editor -- if you run this module directly run unittest.main
+# conditional used to allow testing to be run in terminal directly
 if __name__ == '__main__':
     unittest.main()
