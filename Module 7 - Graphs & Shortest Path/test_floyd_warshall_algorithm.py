@@ -26,4 +26,4 @@ class TestFloydWarshallAlgorithm(unittest.TestCase):
 
 # conditional used to allow testing to be run in terminal directly
 if __name__ == '__main__':
-    unittest.main()        
+    unittest.main()
